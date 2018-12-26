@@ -233,7 +233,7 @@ class CreateCanvas extends React.Component {
     );
     const loop = () => {
       render();
-      this.timeoutId = setTimeout(loop, 50000);
+      this.timeoutId = setTimeout(loop, 500);
     };
     loop();
   }
